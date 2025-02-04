@@ -1,7 +1,8 @@
 # 🌟 Multimodal RAG for Financial Analysis
 <div align="center">
 
-<img src="_asserts/preparing%20images%20for%20retrival.png" alt="Project Banner" width="800"/>
+<img src="_asserts/query%20output%20genrated%20by%20the%20model.png" alt="Financial Analysis Output" width="800"/>
+
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
@@ -241,18 +242,76 @@ The system demonstrates impressive capabilities in analyzing Starbucks' financia
    - Top-5 audio chunk similarities: 0.90-0.91 range
    - Effective multimodal context assembly
 
-### 📈 Sample Analysis Output
+### 🖼️ Image Preprocessing for OpenAI
 
+A crucial step in our pipeline is preparing images for the OpenAI model. This involves:
+
+<div align="center">
+<img src="_asserts/preparing%20images%20for%20retrival.png" alt="Image Preprocessing" width="800"/>
+</div>
+
+**Process Highlights:**
+- Converting images to base64 format
+- Optimizing image resolution and quality
+- Preparing batch processing for multiple images
+- Ensuring proper formatting for API input
+- Managing memory efficiency for large documents
+
+This preprocessing step is essential for:
+- Maintaining image quality
+- Optimizing API performance
+- Ensuring accurate visual analysis
+- Enabling efficient multimodal processing
+
+### 📈 Example Query Analysis
+
+#### Query
+```
+How is the company doing financially?
+```
+
+#### System Response
 <div align="center">
 <img src="_asserts/query%20output%20genrated%20by%20the%20model.png" alt="Financial Analysis Output" width="800"/>
 </div>
 
-The system successfully combines information from multiple sources to provide comprehensive financial analysis, including:
-- Detailed revenue analysis
-- Market performance metrics
-- Strategic initiatives
-- Regional breakdowns
-- Future outlook and trends
+The system generated a comprehensive analysis that included:
+
+**Financial Metrics:**
+- Q3 total company revenue: $9.1 billion (↑1% YoY, ↑6% QoQ)
+- Global comparable store sales declined 3% year over year
+- Operating margins contracted by 70 basis points to 16.7%
+- Earnings per share: 93 cents
+
+**Regional Performance:**
+- North America: -2% Comcro
+- China: -14% Comcro
+- Strong performance in Japan
+- International challenges, particularly in China
+
+**Strategic Insights:**
+- Implementation of three-part action plan
+- Operational improvements in US stores
+- Enhanced customer experience initiatives
+- Digital engagement metrics
+
+**Future Outlook:**
+- Planned improvements in store operations
+- Strategic investments in partner hours
+- Expansion plans in tier 2 and tier 3 cities
+- Technology deployment roadmap
+
+The system successfully combined information from:
+- Earnings call audio transcription
+- Financial statements and metrics
+- Visual data from presentations
+- Management commentary and guidance
+
+This demonstrates the system's ability to:
+1. Process complex financial queries
+2. Synthesize information from multiple sources
+3. Present structured, comprehensive analysis
+4. Provide both quantitative and qualitative insights
 
 ## 🤝 Contributing
 
@@ -265,4 +324,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 <div align="center">
 Made with ❤️ for financial analysis
-</div> 
+</div>
