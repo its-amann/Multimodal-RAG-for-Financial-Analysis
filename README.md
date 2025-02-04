@@ -1,7 +1,7 @@
 # 🌟 Multimodal RAG for Financial Analysis
 <div align="center">
 
-<img src="_asserts/preparing%20images%20for%20retrival.png" alt="Project Banner" width="800"/>
+<img src="_asserts/query%20output%20genrated%20by%20the%20model.png" alt="Financial Analysis Output" width="800"/>
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
