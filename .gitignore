@@ -66,15 +66,10 @@ Thumbs.db
 *.rar
 
 # Media and large files
-*.mp3
-*.mp4
 *.avi
 *.mov
 *.wav
 *.flac
-*.jpg
-*.jpeg
-*.png
 *.gif
 *.pdf
 
@@ -101,12 +96,6 @@ coverage.xml
 # Project specific directories and files
 transcript/
 images/
-_asserts/
 *-Earnings-Release.pdf
 *Project*.pdf
 starbucks-q3.mp3
-
-# Generated content
-transcript.txt
-page_*.jpg
-page_*.png 
