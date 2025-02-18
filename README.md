@@ -1,6 +1,6 @@
 # 🌟 Multimodal RAG for Financial Analysis
 <div align="center">
-
+query = "You are a financial adviser. Answer based on the provided financial data."
 <img src="_asserts/preparing%20images%20for%20retrival.png" alt="Project Banner" width="800"/>
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
