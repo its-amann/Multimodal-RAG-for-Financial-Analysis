@@ -1,4 +1,4 @@
-# 🌟 Multimodal RAG for Financial Analysis
+# 🌟 Multimodal RAG for Financial Analysis 
 <div align="center">
 query = "You are a financial adviser. Answer based on the provided financial data."
 <img src="_asserts/query%20output%20genrated%20by%20the%20model.png" alt="Project Banner" width="800"/>
